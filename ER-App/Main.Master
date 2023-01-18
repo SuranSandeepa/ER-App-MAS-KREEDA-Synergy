@@ -28,8 +28,8 @@
 
         <div class="sidebar">
             <div class="logo_content">
-                <div class="log">
-                    <i class='bx bxl-typescript'></i>
+                <div class="logo">
+                    <i class='bx bxs-bot'></i>
                     <div class="logo_name">ER-APP</div>
                 </div>
                 <i class='bx bx-menu' id="btn"></i>
@@ -42,29 +42,57 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class='bx bx-grid-alt'></i>
-                        <span class="links_name">Dashboard</span>
+                        <i class='bx bx-fingerprint' ></i>
+                        <span class="links_name">Absent Summery</span>
                     </a>
                     <%--<span class="tooltip">Dashboard</span>--%>
                 </li>
                 <li>
                     <a href="#">
-                        <i class='bx bx-grid-alt'></i>
-                        <span class="links_name">Dashboard</span>
+                        <i class='bx bx-line-chart'></i>
+                        <span class="links_name">Carder Summery</span>
                     </a>
                     <%--<span class="tooltip">Dashboard</span>--%>
                 </li>
                 <li>
                     <a href="#">
-                        <i class='bx bx-grid-alt'></i>
-                        <span class="links_name">Dashboard</span>
+                        <i class='bx bx-trending-up'></i>
+                        <span class="links_name">ETO Summary</span>
                     </a>
                     <%--<span class="tooltip">Dashboard</span>--%>
                 </li>
                 <li>
                     <a href="#">
-                        <i class='bx bx-grid-alt'></i>
-                        <span class="links_name">Dashboard</span>
+                        <i class='bx bx-detail'></i>
+                        <span class="links_name">VOP Report</span>
+                    </a>
+                    <%--<span class="tooltip">Dashboard</span>--%>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-body'></i>
+                        <span class="links_name">Man Power</span>
+                    </a>
+                    <%--<span class="tooltip">Dashboard</span>--%>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-user-circle'></i>
+                        <span class="links_name">Employee Profile</span>
+                    </a>
+                    <%--<span class="tooltip">Dashboard</span>--%>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-cloud-upload'></i>
+                        <span class="links_name">Excel Uploads</span>
+                    </a>
+                    <%--<span class="tooltip">Dashboard</span>--%>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-edit'></i>
+                        <span class="links_name">Data Entering</span>
                     </a>
                     <%--<span class="tooltip">Dashboard</span>--%>
                 </li>
@@ -76,18 +104,18 @@
                     <%--<span class="tooltip">Dashboard</span>--%>
                 </li>
             </ul>
-            <div class="profile_content">
+<%--            <div class="profile_content">
                 <div class="profile">
                     <div class="profile_details">
-                        <i class='bx bx-chat'></i>
+                        <img src="Images/Logo_of_MAS.png" />
                         <div class="name_job">
                             <div class="name">
-                                Synergy User
+                                MAS Synergy User
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>--%>
         </div>
 
 
