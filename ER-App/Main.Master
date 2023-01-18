@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="ER_App.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title></title>
+
+    <%--Bootstrap CSS--%>
+    <link href="Bootstrap/CSS/bootstrap.min.css" rel="stylesheet" />
+    <%--Bootstrap JS--%>
+    <script src="Bootstrap/JS/bootstrap.min.js"></script>
+    <%--Jquery--%>
+    <script src="Bootstrap/JS/jquery-3.2.1.slim.min.js"></script>
+    <%--Popper JS--%>
+    <script src="Bootstrap/JS/popper.min.js"></script>
+    <%--BoxIcons CDN link--%>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <%--navBar CSS link--%>
+    <link href="CSS/navBar.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="sidebar">
+            <div class="logo_content">
+                <div class="log">
+                    <i class='bx bxl-typescript'></i>
+                    <div class="logo_name">ER-APP</div>
+                </div>
+                <i class='bx bx-menu' id="btn"></i>
+            </div>
+            <ul class="nav_list">
+                <li>
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Search..." />
+                    <%--<span class="tooltip">Dashboard</span>--%>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-grid-alt'></i>
+                        <span class="links_name">Dashboard</span>
+                    </a>
+                    <%--<span class="tooltip">Dashboard</span>--%>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-grid-alt'></i>
+                        <span class="links_name">Dashboard</span>
+                    </a>
+                    <%--<span class="tooltip">Dashboard</span>--%>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-grid-alt'></i>
+                        <span class="links_name">Dashboard</span>
+                    </a>
+                    <%--<span class="tooltip">Dashboard</span>--%>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-grid-alt'></i>
+                        <span class="links_name">Dashboard</span>
+                    </a>
+                    <%--<span class="tooltip">Dashboard</span>--%>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-chat'></i>
+                        <span class="links_name">Feedback</span>
+                    </a>
+                    <%--<span class="tooltip">Dashboard</span>--%>
+                </li>
+            </ul>
+            <div class="profile_content">
+                <div class="profile">
+                    <div class="profile_details">
+                        <i class='bx bx-chat'></i>
+                        <div class="name_job">
+                            <div class="name">
+                                Synergy User
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Main Content Placeholder-->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            </asp:ContentPlaceHolder>
+        </div>
+        <!--Main Content Placeholder-->
+    </form>
+</body>
+</html>
