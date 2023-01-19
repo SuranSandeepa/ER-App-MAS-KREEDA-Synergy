@@ -27,97 +27,119 @@
     <form id="form1" runat="server">
 
         <div class="sidebar">
-            <div class="logo_content">
-                <div class="logo">
-                    <i class='bx bxs-bot'></i>
-                    <div class="logo_name">ER-APP</div>
-                </div>
+            <div class="logo-details">
+                    <i class='bx bxs-bot icon'></i>
+                    <div class="logo_name"><a href="homePage.aspx">ER-APP</a></div>
                 <i class='bx bx-menu' id="btn"></i>
             </div>
-            <ul class="nav_list">
-                <li>
+            <ul class="nav-list">
+<%--                <li>
                     <i class='bx bx-search'></i>
-                    <input type="text" placeholder="Search..." />
-                    <%--<span class="tooltip">Dashboard</span>--%>
-                </li>
+                    <input type="text" placeholder="Search...">
+                    <span class="tooltip">Search</span>
+                </li>--%>
                 <li>
                     <a href="#">
-                        <i class='bx bx-fingerprint' ></i>
+                        <i class='bx bx-fingerprint'></i>
                         <span class="links_name">Absent Summery</span>
                     </a>
-                    <%--<span class="tooltip">Dashboard</span>--%>
+                    <span class="tooltip">Absent Summery</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-line-chart'></i>
                         <span class="links_name">Carder Summery</span>
                     </a>
-                    <%--<span class="tooltip">Dashboard</span>--%>
+                    <span class="tooltip">Carder Summery</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-trending-up'></i>
                         <span class="links_name">ETO Summary</span>
                     </a>
-                    <%--<span class="tooltip">Dashboard</span>--%>
+                    <span class="tooltip">ETO Summary</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-detail'></i>
                         <span class="links_name">VOP Report</span>
                     </a>
-                    <%--<span class="tooltip">Dashboard</span>--%>
+                    <span class="tooltip">VOP Report</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-body'></i>
                         <span class="links_name">Man Power</span>
                     </a>
-                    <%--<span class="tooltip">Dashboard</span>--%>
+                    <span class="tooltip">Man Power</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-user-circle'></i>
                         <span class="links_name">Employee Profile</span>
                     </a>
-                    <%--<span class="tooltip">Dashboard</span>--%>
+                    <span class="tooltip">Employee Profile</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-cloud-upload'></i>
                         <span class="links_name">Excel Uploads</span>
                     </a>
-                    <%--<span class="tooltip">Dashboard</span>--%>
+                    <span class="tooltip">Excel Uploads</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-edit'></i>
                         <span class="links_name">Data Entering</span>
                     </a>
-                    <%--<span class="tooltip">Dashboard</span>--%>
+                    <span class="tooltip">Data Entering</span>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="Feedback.aspx">
                         <i class='bx bx-chat'></i>
                         <span class="links_name">Feedback</span>
                     </a>
-                    <%--<span class="tooltip">Dashboard</span>--%>
+                    <span class="tooltip">Feedback</span>
                 </li>
-            </ul>
-<%--            <div class="profile_content">
-                <div class="profile">
-                    <div class="profile_details">
+                <li class="profile">
+                    <div class="profile-details">
                         <img src="Images/Logo_of_MAS.png" />
                         <div class="name_job">
-                            <div class="name">
-                                MAS Synergy User
-                            </div>
+                            <div class="name">MAS KREEDA</div>
+                            <div class="job">Synergy HR</div>
                         </div>
                     </div>
-                </div>
-            </div>--%>
+                    <i class='bx bx-log-out' id="log_out"></i>
+                </li>
+            </ul>
         </div>
+<%--        <section class="home-section">
+            <div class="text">Dashboard</div>
+        </section>--%>
+        <script>
+            let sidebar = document.querySelector(".sidebar");
+            let closeBtn = document.querySelector("#btn");
+            let searchBtn = document.querySelector(".bx-search");
 
+            closeBtn.addEventListener("click", () => {
+                sidebar.classList.toggle("open");
+                menuBtnChange();//calling the function(optional)
+            });
+
+            searchBtn.addEventListener("click", () => { // Sidebar open when you click on the search iocn
+                sidebar.classList.toggle("open");
+                menuBtnChange(); //calling the function(optional)
+            });
+
+            // following are the code to change sidebar button(optional)
+            function menuBtnChange() {
+                if (sidebar.classList.contains("open")) {
+                    closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+                } else {
+                    closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");//replacing the iocns class
+                }
+            }
+        </script>
 
         <!--Main Content Placeholder-->
         <div>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Feedback.aspx.cs" Inherits="ER_App.Feedback" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="homePage.aspx.cs" Inherits="ER_App.homePage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <%--Background CSS--%>
     <link href="CSS/Background.css" rel="stylesheet" />
