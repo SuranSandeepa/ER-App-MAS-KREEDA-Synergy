@@ -72,7 +72,10 @@
     <Content Include="Bootstrap\JS\jquery-3.2.1.slim.min.js" />
     <Content Include="Bootstrap\JS\popper.min.js" />
     <Content Include="CSS\Background.css" />
+    <Content Include="CSS\DataEntering.css" />
+    <Content Include="CSS\Feedbackform.css" />
     <Content Include="CSS\navBar.css" />
+    <Content Include="DataEntering.aspx" />
     <Content Include="Feedback.aspx" />
     <Content Include="homePage.aspx" />
     <Content Include="Images\bg2.jpg" />
@@ -80,9 +83,17 @@
     <Content Include="Images\bg4.jpg" />
     <Content Include="Images\Logo_of_MAS.png" />
     <Content Include="Images\Logo_of_MAS_Holdings.png" />
+    <Content Include="LogingPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataEntering.aspx.cs">
+      <DependentUpon>DataEntering.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataEntering.aspx.designer.cs">
+      <DependentUpon>DataEntering.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Feedback.aspx.cs">
       <DependentUpon>Feedback.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -96,6 +107,13 @@
     </Compile>
     <Compile Include="homePage.aspx.designer.cs">
       <DependentUpon>homePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogingPage.aspx.cs">
+      <DependentUpon>LogingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogingPage.aspx.designer.cs">
+      <DependentUpon>LogingPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>

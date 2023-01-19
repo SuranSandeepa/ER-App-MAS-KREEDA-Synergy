@@ -11,52 +11,61 @@ namespace ER_App
 {
 
 
-    public partial class Feedback
+    public partial class DataEntering
     {
 
         /// <summary>
-        /// txtFname control.
+        /// Calendar1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFname;
+        protected global::System.Web.UI.WebControls.Calendar Calendar1;
 
         /// <summary>
-        /// txtFepf control.
+        /// Calendar2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFepf;
+        protected global::System.Web.UI.WebControls.Calendar Calendar2;
 
         /// <summary>
-        /// txtFq1 control.
+        /// Calendar3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFq1;
+        protected global::System.Web.UI.WebControls.Calendar Calendar3;
 
         /// <summary>
-        /// txtFq2 control.
+        /// Calendar4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFq2;
+        protected global::System.Web.UI.WebControls.Calendar Calendar4;
 
         /// <summary>
-        /// btnFsave control.
+        /// Calendar5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnFsave;
+        protected global::System.Web.UI.WebControls.Calendar Calendar5;
+
+        /// <summary>
+        /// Calendar6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Calendar Calendar6;
     }
 }
