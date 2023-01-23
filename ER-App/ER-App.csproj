@@ -77,12 +77,14 @@
     <Content Include="CSS\navBar.css" />
     <Content Include="DataEntering.aspx" />
     <Content Include="Feedback.aspx" />
+    <Content Include="FeedbackView.aspx" />
     <Content Include="homePage.aspx" />
     <Content Include="Images\bg2.jpg" />
     <Content Include="Images\bg3.jpg" />
     <Content Include="Images\bg4.jpg" />
     <Content Include="Images\Logo_of_MAS.png" />
     <Content Include="Images\Logo_of_MAS_Holdings.png" />
+    <Content Include="Images\mount.png" />
     <Content Include="LogingPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -100,6 +102,13 @@
     </Compile>
     <Compile Include="Feedback.aspx.designer.cs">
       <DependentUpon>Feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FeedbackView.aspx.cs">
+      <DependentUpon>FeedbackView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FeedbackView.aspx.designer.cs">
+      <DependentUpon>FeedbackView.aspx</DependentUpon>
     </Compile>
     <Compile Include="homePage.aspx.cs">
       <DependentUpon>homePage.aspx</DependentUpon>

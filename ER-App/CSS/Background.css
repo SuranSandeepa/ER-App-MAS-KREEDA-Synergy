@@ -1,3 +1,6 @@
 ﻿body {
-    background: #E4E9F7;
+    background-image: url('../Images/mount.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
